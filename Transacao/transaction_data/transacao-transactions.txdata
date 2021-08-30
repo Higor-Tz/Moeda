@@ -1,0 +1,44 @@
+[
+    {
+        "transactionName": "transacaoExists",
+        "transactionLabel": "A test transacaoExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "createTransacao",
+        "transactionLabel": "A test createTransacao transaction",
+        "arguments": [
+            "001",
+            "some value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "readTransacao",
+        "transactionLabel": "A test readTransacao transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "updateTransacao",
+        "transactionLabel": "A test updateTransacao transaction",
+        "arguments": [
+            "001",
+            "some other value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "deleteTransacao",
+        "transactionLabel": "A test deleteTransacao transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    }
+]
