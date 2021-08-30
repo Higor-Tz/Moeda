@@ -27,7 +27,9 @@ The goal of Hyperledger Fabric is to create enterprise-level, open source accoun
 The IBM Blockchain Platform extension of Visual Studio Code was used to create networks, contracts, identity cards and make manipulations on the network. For this it is necessary to install components that are prerequisites for running Hyperledger Fabric: Docker, Docker Compose and other components.
 After creating a network named "MoedaU$P", using the IBM platform, the "Transacao" contract was created available in this document.
 While the documents in the "API-Postman" folder refer to the API developed to execute the "Transacao" contract methods created via API in the Postman interface, the api codes were adapted and formatted from the "api-dicom" developed by eriksonJAguiar available at the link to follow:
+
 https://github.com/eriksonJAguiar/Blockchain-Token-DICOM/tree/master/api-dicom
+
 Note: The folder "node_modules", referring to the Fabric binaries in GO language, are not found inside the server folder as in the eriksonJAguiar repository from the link above, if you are interested in executing the method calls via API it is necessary to move a copy folder "node_modules" that was installed on your local machine to this folder, this folder is generated in the installation dependencies of Fabric, if it is not on your computer you can download by the link above.
 
 ## Results:
